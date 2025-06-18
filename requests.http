@@ -1,0 +1,30 @@
+### Criar uma task
+### http://localhost:8000/tasks
+### https://java-api-nmd8.onrender.com/api/tasks
+### https://net-api-579v.onrender.com/api/Tasks
+### https://go-api-t7tu.onrender.com/tasks
+POST https://go-api-t7tu.onrender.com/tasks
+Content-Type: application/json
+
+{
+  "title": "Gustavo Henrique",
+  "content": "Software Engineer"
+}
+
+### Listar todas as tasks
+GET http://localhost:8000/tasks
+
+### Obter uma task específica (troque pelo ID real)
+GET https://net-api-579v.onrender.com/api/Tasks/6852e1fa1890fdde2388e451
+
+### Atualizar uma task
+PUT https://go-api-t7tu.onrender.com/tasks/6852e1fa1890fdde2388e451
+Content-Type: application/json
+
+{
+  "title": "Daniel Rodrigues",
+  "content": "Software Developer"
+}
+
+### Deletar uma task
+DELETE http://localhost:8000/tasks/6852e25ccfb91affc86f8a58
