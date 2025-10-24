@@ -11,7 +11,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://danielvor.onrender.com"],  # ou ["*"] para todos os domínios
+    allow_origins=["https://danielvor.onrender.com", "https://danielvor.vercel.app/*"],  # ou ["*"] para todos os domínios
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
